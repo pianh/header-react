@@ -7,7 +7,7 @@ import Room from '~/pages/Room';
 const publicRoutes = [
     // K can dang nhap
     { path: '/', component: Home },
-    { path: '/room', component: Room },
+    // { path: '/room', component: Room },
 ];
 
 const privateRoutes = [

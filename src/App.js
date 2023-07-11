@@ -11,6 +11,7 @@ function App() {
                         return <Route key={index} path={route.path} element={<Page />} />;
                     })}
                 </Routes>
+                {/* <Button>Primary</Button> */}
             </div>
         </Router>
     );
